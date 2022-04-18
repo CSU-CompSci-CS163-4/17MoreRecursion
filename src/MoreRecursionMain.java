@@ -1,15 +1,7 @@
 import java.util.Scanner;
-/**
- * Main class for program initialization.
- */
+
 public class MoreRecursionMain {
-    /**
-     * This method uses a switch case with the users choice of 1, 2, 3, or 0
-     * depending on the choice one of the cases calls the corresponding method
-     * from the {@link RecursionHelper} object.
-     * @param choice
-     * @param scnr
-     */
+    
     public static void methodToCall(int choice, Scanner scnr) {
         MoreRecursionHelper rHelp = new MoreRecursionHelper();
         while(true) {
@@ -37,9 +29,7 @@ public class MoreRecursionMain {
             choice = scnr.nextInt();
         }
     }
-    /**
-     * This method prints out the choices available when calling methods.
-     */
+    
     public static void printChoices() {
         System.out.println("What method would you like to call?");
         System.out.println("1. toBinary()");
@@ -48,10 +38,7 @@ public class MoreRecursionMain {
         System.out.println("Please type 1, 2, or 3.");
         System.out.println("Or type 0 to exit.");
     }
-    /**
-     * Main function for our program.
-     * @param args
-     */
+    
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         
