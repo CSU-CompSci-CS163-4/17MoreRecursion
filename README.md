@@ -1,7 +1,7 @@
-# Lab 17 - More Recursion
+# Lab 16 - More Recursion
 For this lab you will implement three more recursive methods, which should more difficult than the last set that we worked through.
 
-For ease of acces, here is the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab17/package-summary.html) and [README](https://github.com/CSU-CompSci-CS163-4/17MoreRecursion/blob/main/README.md).
+For ease of acces, here is the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab16/package-summary.html).
 
 ## Pre-Step: Walkthrough & Compilation
 Once again with this Tuesday lab, you are only tasked with creating self-explanations along with implementing their associated methods.
